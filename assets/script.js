@@ -1,3 +1,5 @@
+console.log('connecté...')
+
 const slides = [
 	{
 		"image":"slide1.jpg",
@@ -16,3 +18,26 @@ const slides = [
 		"tagLine":"Autocollants <span>avec découpe laser sur mesure</span>"
 	}
 ]
+
+
+
+const arrow_left = document.querySelector('.arrow_left');
+console.log(arrow_left);
+
+const arrow_right = document.querySelector('.arrow_right');
+console.log(arrow_right);
+
+
+arrow_left.addEventListener('click', function () {
+    console.log('Flèche gauche cliquée !');
+    }
+);
+
+arrow_right.addEventListener('click', function () {
+    console.log('Flèche droite cliquée !');
+    }
+);
+
+
+var nombreElements = slides.length;
+console.log(nombreElements);
