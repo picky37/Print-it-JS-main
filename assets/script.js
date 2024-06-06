@@ -70,7 +70,7 @@ for (let i = 0; i < slides.length; i++) {
 		'<span id="dot' +
 		i +
 		'" class="dot" title="Image ' +
-		(i + 1) +
+		i +
 		'"></span>';
 }
 
