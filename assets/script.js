@@ -46,6 +46,7 @@ function miseAjourSlide() {
 	});
 }
 
+miseAjourSlide();
 arrow_left.addEventListener('click', function () {
 	indexn--;
 	if (indexn < 0) {
@@ -73,4 +74,3 @@ for (let i = 0; i < slides.length; i++) {
 		i +
 		'"></span>';
 }
-
